@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap');
+.footer{
+  background-image: url('/img/Group 133.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh;
+  display: flex;
+  align-items: center;
+    justify-content: center;
+    gap: 13rem;
+    h1{
+      color: rgb(255, 255, 255);
+      font-size: 3rem;
+      font-weight: 600;
+        font-family: "Clicker Script", cursive;
+    }
+    a{
+      color: white;
+    }
+}

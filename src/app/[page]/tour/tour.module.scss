@@ -1,0 +1,94 @@
+.main {
+	margin: 5rem;
+}
+.cards {
+	display: flex;
+	gap: 1rem;
+	justify-content: center;
+	flex-wrap: wrap;
+@mixin card{
+  width: 23rem;
+		height: 27rem;
+		border-radius: 5px;
+		padding: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    transition: 0.5s all;
+		h1 {
+			color: white;
+			font-weight: bold;
+			font-size: 2rem;
+		}
+		p {
+			color: white;
+		}
+		.price {
+			background-color: rgba(0, 0, 0, 0.378);
+			color: white;
+			display: flex;
+			height: 3rem;
+			border-radius: 10px;
+			align-items: center;
+      padding: 1rem;
+			justify-content: space-between;
+			button {
+				background: -webkit-linear-gradient(90deg, #ff8c51, #ff6d6d);
+				background: linear-gradient(90deg, #ff8c51, #ff6d6d);
+				width: 35px;
+				height: 35px;
+				border-radius: 42px;
+			}
+		}
+     &:hover{
+      transform: scale(1.03);
+    }
+	}
+  .card_1{
+    @include card();
+    background-image: url('/img/Dubai.jpg');
+    background-size: cover;
+   
+  }
+  .card_2{
+    @include card();
+     background-image: url('/img/abudabi.jpg');
+    background-size: cover;
+  }
+  .card_3{
+    @include card();
+    background-image: url('/img/ras.jpg');
+    background-size: cover;
+  }
+  .card_4{
+    @include card();
+     background-image: url('/img/belek.jpg');
+    background-size: cover;
+  }
+  .card_5{
+    @include card();
+    background-image: url('/img/bodrum.jpg');
+    background-size: cover;
+  }
+  .card_6{
+    @include card();
+    background-image: url('/img/kemer.jpg');
+    background-size: cover;
+  }
+  .card_7{
+    @include card();
+    background-image: url('/img/SPB.jpg');
+    background-size: cover;
+  }
+  .card_8{
+    @include card();
+    background-image: url('/img/sochi.jpg');
+    background-size: cover;
+  }
+  .card_9{
+    @include card();
+    background-image: url('/img/bailkal.jpg');
+    background-size: cover;
+  }
+
+}
