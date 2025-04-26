@@ -4,7 +4,7 @@ import styles from './form.module.scss'
 import Alert from '@mui/material/Alert'
 import { useRouter } from 'next/navigation'
 export default function regist() {
-	const roter = useRouter()
+	const router = useRouter();
 	return (
 		<>
 			<div className={styles.container}>
@@ -12,14 +12,16 @@ export default function regist() {
 					<p className='text-[#f7941e]'>Бронирование тура</p>
 				</div>
 				<a href='/'>назад</a>
-				<form action='' className={styles.form}>
+				<form action='/page/tours' className={styles.form}>
 					<input type='text' placeholder='Имя' />
 					<input type='text' placeholder='Фамилия' />
 					<input type='email' placeholder='Почта' />
 					<input type='date' placeholder='Дата заезда' />
 					<input type='text' placeholder='Кол-во Взрослых' />
 					<input type='text' placeholder='Кол-во детей' />
-					<button onClick={() => alert('Бронь создана ')}>Забронировать</button>
+					<button onClick={()=>router.push('/tours')}>
+						Забронировать
+					</button>
 				</form>
 			</div>
 		</>
