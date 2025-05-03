@@ -16,13 +16,10 @@ export default function Header(){
 						<a href='/'>Главное</a>
 					</li>
 					<li>
-						<a href=''>О нас</a>
+						<a href='#about'>О нас</a>
 					</li>
 					<li>
 						<a href='/[page]/tour/'>Туры</a>
-					</li>
-					<li>
-						<a href='/[page]/tours/'>Мои туры</a>
 					</li>
 				</ul>
 			</nav>
@@ -30,9 +27,7 @@ export default function Header(){
 				<h1 className='text-5xl'>Исследователь и путешественник</h1>
 				<h2>А теперь Пойдем</h2>
 				<p className=''>
-					Lorem Ipsum is simply dummy text of the printing and typesetting
-					industry. Lorem Ipsum has been the industry's standard dummy text ever
-					since the 1500s,
+			
 				</p>
 			</div>
 			<div className={styles.block}>

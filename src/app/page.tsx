@@ -28,57 +28,49 @@ export default function Home() {
 					<h1>Путешествие по</h1>
 					<h2>Активность</h2>
 					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting
-						industry. Lorem Ipsum has been the industry's standard dummy text
-						ever since the 1500s,
+					
 					</p>
 					<div className={styles.cards}>
 						<div className={styles.card}>
 							<Image src={'/img/p1.png'} width={100} height={100} alt='' />
 							<h1>Приключения</h1>
 							<p>
-								Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio
-								nisi, nam quaerat ex alias{' '}
+							
 							</p>
 						</div>
 						<div className={styles.card}>
 							<Image src={'/img/p2.png'} width={100} height={100} alt='' />
 							<h1>Кемпинг</h1>
 							<p>
-								Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio
-								nisi, nam quaerat ex alias{' '}
+							
 							</p>
 						</div>
 						<div className={styles.card}>
 							<Image src={'/img/p3.png'} width={100} height={100} alt='' />
 							<h1>Треккинг</h1>
 							<p>
-								Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio
-								nisi, nam quaerat ex alias{' '}
+								
 							</p>
 						</div>
 						<div className={styles.card}>
 							<Image src={'/img/p4.png'} width={100} height={100} alt='' />
 							<h1>Бездорожье</h1>
 							<p>
-								Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio
-								nisi, nam quaerat ex alias{' '}
+								
 							</p>
 						</div>
 						<div className={styles.card}>
 							<Image src={'/img/p5.png'} width={100} height={100} alt='' />
 							<h1>Походный Костер</h1>
 							<p>
-								Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio
-								nisi, nam quaerat ex alias{' '}
+								
 							</p>
 						</div>
 						<div className={styles.card}>
 							<Image src={'/img/p6.png'} width={100} height={100} alt='' />
 							<h1>Истекающий</h1>
 							<p>
-								Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio
-								nisi, nam quaerat ex alias
+								
 							</p>
 						</div>
 					</div>
@@ -87,9 +79,7 @@ export default function Home() {
 					<h1>Лучший Путешественник</h1>
 					<h2>Общие фотографии</h2>
 					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting
-						industry. Lorem Ipsum has been the industry's standard dummy text
-						ever since the 1500s,
+					
 					</p>
 					<div className={styles.cards}>
 						<Image src={'/img/img4.png'} width={300} height={300} alt='' />
@@ -103,7 +93,7 @@ export default function Home() {
 				<div className={styles.review}>
 					<h1>О нас</h1>
 
-					<div className={styles.rew}>
+					<div className={styles.rew} id='#about'>
 						<p>
 							Мы — команда единомышленников, влюблённых в путешествия и свою
 							работу. Наша туристическая компания создавалась с одной простой
@@ -118,10 +108,7 @@ export default function Home() {
 					<div>
 						<h1>Получите наш Ежемесячный Новостная рассылка</h1>
 						<p>
-							Lorem Ipsum is simply dummy text of the printing and typesetting
-							industry. Lorem Ipsum has been the industry's standard dummy text
-							ever since the 1500s, when an unknown printer took a galley of
-							type and scrambled it to make a type specimen book.{' '}
+							Введите свою почту и получайте свежие новости от нас
 						</p>
 						<form action=''>
 							<input type='text' placeholder='Введите ваш email' />

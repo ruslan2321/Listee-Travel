@@ -21,40 +21,7 @@ export default function footer() {
 					</li>
 				</ul>
 			</div>
-			<div className={styles.company}>
-				<h1>Company</h1>
-				<ul>
-					<li>
-						<a href=''>Главная</a>
-					</li>
-					<li>
-						<a href=''>Features</a>
-					</li>
-					<li>
-						<a href=''>News & Blogs</a>
-					</li>
-					<li>
-						<a href=''>Help & Supports</a>
-					</li>
-				</ul>
-			</div>
-			<div className={styles.contact}>
-				<h1>Contact Us</h1>
-				<ul>
-					<li>
-						<a href=''>Главная</a>
-					</li>
-					<li>
-						<a href=''>Features</a>
-					</li>
-					<li>
-						<a href=''>News & Blogs</a>
-					</li>
-					<li>
-						<a href=''>Help & Supports</a>
-					</li>
-				</ul>
-			</div>
+
 		</footer>
 	)
 }
