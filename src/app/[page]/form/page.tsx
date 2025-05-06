@@ -1,5 +1,6 @@
 'use client'
 import React from 'react'
+import Link from 'next/link'
 import styles from './form.module.scss'
 export default function regist() {
 	return (
@@ -8,7 +9,7 @@ export default function regist() {
 				<div className={styles.title}>
 					<p className='text-[#f7941e]'>Бронирование тура</p>
 				</div>
-				<a href='/'>назад</a>
+				<Link href='/'>назад</Link>
 				<form action='/page/tours' className={styles.form}>
 					<input type='text' placeholder='Имя' />
 					<input type='text' placeholder='Фамилия' />

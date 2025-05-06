@@ -3,6 +3,7 @@ import React from 'react'
 import LocationOnIcon from '@mui/icons-material/LocationOn'
 import DateRangeIcon from '@mui/icons-material/DateRange'
 import { useRouter } from 'next/navigation'
+import Link from 'next/link'
 import styles from './header.module.scss'
 export default function Header(){
   return (
@@ -12,13 +13,13 @@ export default function Header(){
 				<ul>
 					<li>
 						{' '}
-						<a href='/'>Главное</a>
+						<Link href='/'>Главное</Link>
 					</li>
 					<li>
-						<a href='#about'>О нас</a>
+						<Link href='#about'>О нас</Link>
 					</li>
 					<li>
-						<a href='/[page]/tour/'>Туры</a>
+						<Link href='/[page]/tour/'>Туры</Link>
 					</li>
 				</ul>
 			</nav>
