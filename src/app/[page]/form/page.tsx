@@ -1,10 +1,7 @@
 'use client'
 import React from 'react'
 import styles from './form.module.scss'
-import Alert from '@mui/material/Alert'
-import { useRouter } from 'next/navigation'
 export default function regist() {
-	const router = useRouter();
 	return (
 		<>
 			<div className={styles.container}>
@@ -19,7 +16,7 @@ export default function regist() {
 					<input type='date' placeholder='Дата заезда' />
 					<input type='text' placeholder='Кол-во Взрослых' />
 					<input type='text' placeholder='Кол-во детей' />
-					<button onClick={()=>router.push('/tours')}>
+					<button onClick={() => window.location.replace('./')}>
 						Забронировать
 					</button>
 				</form>

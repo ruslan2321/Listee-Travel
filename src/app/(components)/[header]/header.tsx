@@ -5,7 +5,6 @@ import DateRangeIcon from '@mui/icons-material/DateRange'
 import { useRouter } from 'next/navigation'
 import styles from './header.module.scss'
 export default function Header(){
-	  const router = useRouter()
   return (
 		<header className={styles.header}>
 			<nav>

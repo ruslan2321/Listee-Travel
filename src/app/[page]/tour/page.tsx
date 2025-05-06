@@ -2,13 +2,10 @@
 
 import React from 'react'
 import Header from '@/app/(components)/[header]/header'
-import Image from 'next/image'
 import Footer from '@/app/(components)/[footer]/footer'
 import styles from './tour.module.scss'
-import { useRouter } from 'next/navigation'
 
 export default function page() {
-			const router = useRouter()
   return (
 		<>
 			<Header />
@@ -20,7 +17,7 @@ export default function page() {
 						<div className={styles.price}>
 							<span>от 20 486 ₽</span>
 							<span>17-24 апреля 7 ночей </span>
-							<button onClick={() => router.push('./form')}>+</button>
+							<button onClick={() => window.location.replace('./form')}>+</button>
 						</div>
 					</div>
 					<div className={styles.card_2}>
@@ -29,7 +26,7 @@ export default function page() {
 						<div className={styles.price}>
 							<span>от 23 486 ₽</span>
 							<span>17-24 апреля 7 ночей </span>
-							<button onClick={() => router.push('./form')}>+</button>
+							<button onClick={() => window.location.replace('./form')}>+</button>
 						</div>
 					</div>
 
@@ -42,7 +39,7 @@ export default function page() {
 						<div className={styles.price}>
 							<span>от 26 486 ₽</span>
 							<span>17-24 апреля 7 ночей </span>
-							<button onClick={() => router.push('./form')}>+</button>
+							<button onClick={() => window.location.replace('./form')}>+</button>
 						</div>
 					</div>
 					<div className={styles.card_4}>
@@ -51,7 +48,7 @@ export default function page() {
 						<div className={styles.price}>
 							<span>от 22 486 ₽</span>
 							<span>17-24 апреля 7 ночей </span>
-							<button onClick={() => router.push('./form')}>+</button>
+							<button onClick={() => window.location.replace('./form')}>+</button>
 						</div>
 					</div>
 					<div className={styles.card_5}>
@@ -60,7 +57,7 @@ export default function page() {
 						<div className={styles.price}>
 							<span>от 21 486 ₽</span>
 							<span>17-24 апреля 7 ночей </span>
-							<button onClick={() => router.push('./form')}>+</button>
+							<button onClick={() => window.location.replace('./form')}>+</button>
 						</div>
 					</div>
 					<div className={styles.card_6}>
@@ -69,7 +66,7 @@ export default function page() {
 						<div className={styles.price}>
 							<span>от 23 486 ₽</span>
 							<span>17-24 апреля 7 ночей </span>
-							<button onClick={() => router.push('./form')}>+</button>
+							<button onClick={() => window.location.replace('./form')}>+</button>
 						</div>
 					</div>
 					<div className={styles.card_7}>
@@ -78,7 +75,7 @@ export default function page() {
 						<div className={styles.price}>
 							<span>от 25 486 ₽</span>
 							<span>17-24 апреля 7 ночей </span>
-							<button onClick={() => router.push('./form')}>+</button>
+							<button onClick={() => window.location.replace('./form')}>+</button>
 						</div>
 					</div>
 					<div className={styles.card_8}>
@@ -87,7 +84,7 @@ export default function page() {
 						<div className={styles.price}>
 							<span>от 34 486 ₽</span>
 							<span>19-24 января 7 ночей </span>
-							<button onClick={() => router.push('./form')}>+</button>
+							<button onClick={() => window.location.replace('./form')}>+</button>
 						</div>
 					</div>
 					<div className={styles.card_9}>
@@ -96,7 +93,7 @@ export default function page() {
 						<div className={styles.price}>
 							<span>от 19 486 ₽</span>
 							<span>18-24 апреля 5 ночей </span>
-							<button onClick={() => router.push('./form')}>+</button>
+							<button onClick={() => window.location.replace('./form')}>+</button>
 						</div>
 					</div>
 				</div>
