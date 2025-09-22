@@ -5,22 +5,24 @@ export default function footer() {
 		<footer className={styles.footer}>
 			<h1>Listee Travel</h1>
 			<div className={styles.about}>
-				<h1>About</h1>
+				<h1>О нас</h1>
 				<ul>
 					<li>
 						<a href=''>Главная</a>
 					</li>
 					<li>
-						<a href=''>Features</a>
+						<a href=''>Возможности</a>
 					</li>
 					<li>
-						<a href=''>News & Blogs</a>
+						<a href=''>Новости и блоги</a>
 					</li>
 					<li>
-						<a href=''>Help & Supports</a>
+						<a href=''>Помощь и поддержка</a>
 					</li>
+					<li ><a >Разработочики:Руслан.Р и Андрей.Х</a></li>
 				</ul>
 			</div>
+			
 
 		</footer>
 	)

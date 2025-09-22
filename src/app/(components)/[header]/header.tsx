@@ -18,7 +18,7 @@ export default function Header(){
 						<Link href='#about'>О нас</Link>
 					</li>
 					<li>
-						<Link href='/[page]/tour/'>Туры</Link>
+						<Link href='/dubai/tour/'>Туры</Link>
 					</li>
 				</ul>
 			</nav>
